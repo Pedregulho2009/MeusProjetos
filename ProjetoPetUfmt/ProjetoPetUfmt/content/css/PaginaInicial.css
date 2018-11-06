@@ -22,7 +22,7 @@ main{
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.81);
+    background-color: rgba(3, 66, 5, 0.65);
     height:20%;
     width:auto;
 }
@@ -33,10 +33,17 @@ footer{
 
 h1{
     color:white;
+    font-family:'Bodoni MT';
+    font-size:2.5em;
+    margin: 0 0 0 .8em;
+    padding-top:.3em;
 }
 
 h3{
     color:white;
+    font-family:Garamond;
+    font-size:1.5em;
+    margin: 0 0 0.3em 1.4em;
 }
 
 .img-campus-ufmt{
@@ -46,9 +53,24 @@ h3{
 }
 
 .nav-layout{
-    display:block;
+   margin: 0.8em 0 0.5em 0;
+}
+
+.item-navegacao{
+    display:inline;
+    margin: 0 1em 0 2em;    
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;    
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.img-logo-pet{
     float:left;
-    width:100%;
-    clear:both;
-    list-style:none;
+    height:100px;
+    border:solid 5px;
 }

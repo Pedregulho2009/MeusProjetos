@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\css\reset.css" />
     <Content Include="content\img\logo-fenf.jpg" />
     <Content Include="content\img\logo-pet.png" />
     <Content Include="content\img\plano-de-fundo.jpg" />
