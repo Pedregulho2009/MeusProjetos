@@ -95,15 +95,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\css\reset.css" />
+    <Content Include="content\img\integrantes-pet.jpg" />
     <Content Include="content\img\logo-fenf.jpg" />
     <Content Include="content\img\logo-pet.png" />
     <Content Include="content\img\plano-de-fundo.jpg" />
     <Content Include="content\img\plano-de-fundo1.jpg" />
+    <Content Include="content\img\plano-de-fundo2.jpg" />
+    <Content Include="content\img\plano-de-fundo3.jpg" />
+    <Content Include="content\img\plano-de-fundo4.jpg" />
     <Content Include="content\img\ufmt-cuiaba.jpg" />
+    <Content Include="content\js\calendario.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="scripts\jquery-3.3.1.js" />
+    <Content Include="scripts\jquery-3.3.1.min.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="scripts\jquery-3.3.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -121,9 +133,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="content\js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
