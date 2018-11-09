@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../content/css/reset.css"/>
-    <link rel="stylesheet" href="../content/css/PaginaInicial.css" />    
+    <link rel="stylesheet" href="../content/css/PaginaInicial.css" />
+    <link rel="stylesheet" href="../content/css/zabuto_calendar.min.css"/>    
     <title>Pet Engenharia Florestal - UFMT</title>
 </head>
 <body>
@@ -25,13 +26,23 @@
         </header>
         <main>
             <div class="main-principal">
-
+                <div id="item-main-ptincipal">
+                    <h4>Atividades do PET</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus volutpat tincidunt sapien ut consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget leo et velit gravida rutrum non a massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sit amet ornare nibh. Proin nulla justo, condimentum eu feugiat nec, bibendum et urna. Maecenas auctor est ligula, et elementum velit porta consectetur. Donec quam lectus, venenatis dignissim leo vitae, fringilla hendrerit nulla. Suspendisse ac erat ac nulla ultrices dictum vitae non nunc. Nullam eu pellentesque felis.</p>
+                </div>                
             </div>
             <div class="main-lateral">
-                <div id="calendar-container"></div>
+                <div id="my-calendar"></div>
             </div>
         </main>
     </div>
+    <script src="../content/jQuery/jquery.js"></script>
     <script src="../content/js/calendario.js"></script>
+    <script src="../content/js/zabuto_calendar.min.js"></script>
+    <script type="application/javascript">
+        $(document).ready(function () {
+            $("#my-calendar").zabuto_calendar({language: "pt"});
+        });
+    </script>
 </body>
 </html>

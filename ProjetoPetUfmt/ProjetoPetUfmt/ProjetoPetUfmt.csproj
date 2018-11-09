@@ -95,6 +95,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\css\reset.css" />
+    <Content Include="content\css\zabuto_calendar.css" />
+    <Content Include="content\css\zabuto_calendar.min.css" />
     <Content Include="content\img\integrantes-pet.jpg" />
     <Content Include="content\img\logo-fenf.jpg" />
     <Content Include="content\img\logo-pet.png" />
@@ -104,18 +106,16 @@
     <Content Include="content\img\plano-de-fundo3.jpg" />
     <Content Include="content\img\plano-de-fundo4.jpg" />
     <Content Include="content\img\ufmt-cuiaba.jpg" />
+    <Content Include="content\jQuery\jquery.js" />
     <Content Include="content\js\calendario.js" />
+    <Content Include="content\js\zabuto_calendar.js" />
+    <Content Include="content\js\zabuto_calendar.min.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="scripts\jquery-3.3.1.js" />
-    <Content Include="scripts\jquery-3.3.1.min.js" />
-    <Content Include="scripts\jquery-3.3.1.slim.js" />
-    <Content Include="scripts\jquery-3.3.1.slim.min.js" />
-    <Content Include="scripts\jquery-3.3.1.slim.min.map" />
-    <Content Include="scripts\jquery-3.3.1.min.map" />
+    <Content Include="content\jQuery\zabuto_calendar.jquery.json" />
+    <Content Include="content\json\bower.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
